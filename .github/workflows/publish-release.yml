@@ -1,0 +1,24 @@
+name: Publish key-free Windows installer
+on:
+  push:
+    branches: [main]
+    paths: ['release-parts/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble and verify installer
+        shell: bash
+        run: |
+          cat release-parts/*.part > Daymate-Web2-Public-1.0.0-Setup.exe
+          cp release-parts/Daymate-Web2-Public-1.0.0-Setup.exe.sha256 .
+          sha256sum -c Daymate-Web2-Public-1.0.0-Setup.exe.sha256
+      - name: Publish Windows installer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v1.0.0-web2 Daymate-Web2-Public-1.0.0-Setup.exe Daymate-Web2-Public-1.0.0-Setup.exe.sha256 --target "$GITHUB_SHA" --title "Daymate Web2 1.0.0 无密钥安装版" --notes "Windows x64 installer. No Python or Node.js installation required. No API keys, personal accounts, or user databases are included. Users configure their own AI service. Local demo ports: 8018 and 5188. Installer is unsigned."
