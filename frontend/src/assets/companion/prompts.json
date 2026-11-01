@@ -1,0 +1,18 @@
+{
+  "mode": "built-in image_gen",
+  "created": "2026-10-16",
+  "assets": [
+    {
+      "file": "day-v1.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D full-body companion character for Daymate productivity desktop app. Create one original gentle young-adult androgynous human companion called Day, appealing polished anime-inspired editorial illustration, soft short dark brown hair, warm eyes and friendly modest smile, fully clothed ivory casual shirt and muted lavender overshirt jacket, simple trousers and sneakers. Relaxed standing pose, arms comfortably at sides, facing viewer, coherent anatomy, adult proportions gently stylized, clean soft painted edges. Full body including shoes, centered with generous transparent margins, portrait composition around 1024x1536. Palette lavender ivory muted blue harmonizes with a calm productivity app. Genuine transparent alpha background, no environment, no text, no watermark, no frame, no UI, no extra character, no separate cast shadow. This will be a reusable foreground character layered over room backgrounds."
+    },
+    {
+      "file": "study-day-v1.png",
+      "prompt": "Use case: stylized-concept. Asset type: landscape background illustration for Daymate companion scene, approximately 1536x1024. Calm inviting contemporary study room in a polished 2D anime-inspired editorial painting style, soft natural daylight through a window, pale lavender and warm ivory colors, wooden desk, closed notebook, a small green plant, restful uncluttered room. Eye-level view, right-center has clear floor space suitable for later compositing a standing human character. Left half should be quiet and low contrast for an app's separate text overlay, keep room detail mostly along back wall and right. No people, no character, no text, no signage, no logos, no UI controls, no watermark. Full-bleed cohesive background, gentle natural light and soft shadows."
+    },
+    {
+      "file": "study-night-v1.png",
+      "prompt": "Use case: stylized-concept. Asset type: landscape background illustration for Daymate companion scene, approximately 1536x1024. Calm inviting contemporary study room at night in a polished 2D anime-inspired editorial painting style, indigo night outside a window and warm amber desk lamp lighting an ivory wooden study desk, muted lavender walls, a closed notebook and small green plant, restful uncluttered room. Eye-level view, right-center clear floor space for later compositing a standing character. Left half should be quiet and low contrast for an app's separate text overlay, keep room detail mostly along back wall and right. Balanced dusk lavender and warm amber palette. No people, no character, no text, no signage, no logos, no UI controls, no watermark. Full-bleed cohesive illustration."
+    }
+  ]
+}

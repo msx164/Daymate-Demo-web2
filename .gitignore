@@ -1,0 +1,19 @@
+.venv/
+.sandbox/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.db
+*.db-*
+*.sqlite3*
+.env
+.env.*
+!*.example
+artifacts/
+
+# Restored by scripts/prepare_assets.py
+frontend/public/vision/face-landmarker.task
+frontend/public/vision/object-detector.tflite
+frontend/public/vision/wasm/*.wasm
+*.download
+*.lnk

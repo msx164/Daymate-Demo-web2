@@ -1,0 +1,17 @@
+{
+  "url": "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite",
+  "model": "blaze_face_short_range/float16/1",
+  "sha256": "b4578f35940bf5a1a655214a1cce5cab13eba73c1297cd78e1a04c2380b0152f",
+  "package": "@mediapipe/tasks-vision@0.10.32",
+  "workerBundleSha256": "de83c48ff329717a27aeb528d5ef5f47f077c628a5302dc483aca5b513e7464b",
+  "posture": {
+    "url": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+    "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "documentation": "https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker"
+  },
+  "objects": {
+    "url": "https://storage.googleapis.com/mediapipe-models/object_detector/efficientdet_lite0/int8/1/efficientdet_lite0.tflite",
+    "sha256": "0720bf247bd76e6594ea28fa9c6f7c5242be774818997dbbeffc4da460c723bb",
+    "documentation": "https://ai.google.dev/edge/mediapipe/solutions/vision/object_detector"
+  }
+}

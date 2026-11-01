@@ -1,0 +1,11 @@
+:root {
+  font-family: Inter, "Segoe UI", "Microsoft YaHei", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+#root { width: 100%; min-height: 100svh; }
+body { margin: 0; }
+input, select { font: inherit; }

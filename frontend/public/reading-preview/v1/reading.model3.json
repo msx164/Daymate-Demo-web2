@@ -1,0 +1,1 @@
+{"Version":3,"FileReferences":{"Moc":"reading.moc3","Textures":["reading.4096/texture_00.png"],"DisplayInfo":"reading.cdi3.json","Motions":{"Reading":[{"File":"reading.day.motion3.json"}]}},"Groups":[{"Target":"Parameter","Name":"EyeBlink","Ids":["ParamEyeLOpen","ParamEyeROpen"]},{"Target":"Parameter","Name":"LipSync","Ids":["ParamMouthOpenY"]}]}

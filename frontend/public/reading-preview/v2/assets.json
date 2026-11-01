@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "resources": [
+    {
+      "name": "reading.moc3",
+      "sha256": "d0cf885259b0c194cc72e2999a0a5332bda585bb51cab697975d55211346b44c"
+    },
+    {
+      "name": "reading.cdi3.json",
+      "sha256": "b00ee6fbf014203fc00775c30fc62de970a4ce78000b00a6ca35f779fbf0abd6"
+    },
+    {
+      "name": "reading.day.motion3.json",
+      "sha256": "68ad76bcb6d709cbdb6c7923973ce967e6e7447beb0d19657bb519d99597e272"
+    },
+    {
+      "name": "reading.2048/texture_00.png",
+      "sha256": "0357ccfa3e6f1ba3be6cfca7142b34d913a32f3154986058d740b4b72bbbd015"
+    },
+    {
+      "name": "reading.model3.json",
+      "sha256": "8041b8bc0aefbae797782811c7bfd703c8acbbe374a552b36116fd1a20835de2"
+    },
+    {
+      "name": "fallback.png",
+      "sha256": "609220503e674ddea1276b423df296f83c3cb1f8dce922a05e1f3e3b81330c04"
+    },
+    {
+      "name": "LICENSE.txt",
+      "sha256": "a1325d9411572e98a2e45fe1ba9118dd4002f990968fca960d94cb60f32893e9"
+    },
+    {
+      "name": "daymate-character.json",
+      "sha256": "ba819d566059a6d9ac0495c668efbc5c7a80eaf1d8364dce393a3ea5f0d487ec"
+    }
+  ]
+}

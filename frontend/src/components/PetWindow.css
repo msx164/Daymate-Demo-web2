@@ -1,0 +1,16 @@
+html.pet-window, .pet-window body, .pet-window #root { background: transparent !important; margin: 0; width: 100%; height: 100%; min-height: 0; overflow: hidden; }
+.pet-shell { height: 100%; display: flex; flex-direction: column; align-items: center; padding: 6px 10px 8px; user-select: none; color: #446165; }
+.pet-handle { -webkit-app-region: drag; app-region: drag; font-size: 10px; letter-spacing: .5px; padding: 5px 15px; background: #faf6efed; border: 1px solid #eaf3f2; border-radius: 20px; cursor: grab; }
+.pet-caption { margin-top: 6px; padding: 5px 15px; background: #fffdf5eb; border: 1px solid #eee2cf; border-radius: 12px; font-size: 12px; }
+.pet-character { -webkit-app-region: drag; app-region: drag; width: 100%; flex: 1; min-height: 0; }
+.pet-character img { transform-origin: center bottom; }
+.pet-shell[data-motion=false] .pet-character img { animation: none; }
+.pet-actions { display: flex; gap: 7px; padding-top: 6px; -webkit-app-region: no-drag; app-region: no-drag; }
+.pet-actions button { -webkit-app-region: no-drag; app-region: no-drag; border: 1px solid #cde0e3; background: #faf6eff0; color: #4a7b82; border-radius: 12px; padding: 6px 12px; font-size: 11px; }
+.pet-error { background: #fff0f0; margin: 4px 0 0; padding: 3px; border-radius: 6px; font-size: 10px; }
+.pet-shell .day-robot { font-size: 95px; }
+@media (prefers-reduced-motion: reduce) { .pet-character img { animation: none; } }
+.pet-live2d-control { -webkit-app-region: no-drag; app-region: no-drag; display: flex; align-items: center; gap: 5px; font-size: 11px; padding: 4px 8px; background: #faf6eff0; border-radius: 8px; }
+.pet-live2d-control input { accent-color: #175d66; }
+.pet-shell .home-live2d-slot { height: 100%; width: 100%; }
+.pet-shell .live2d-warning { font-size: 10px; line-height: 1.4; }

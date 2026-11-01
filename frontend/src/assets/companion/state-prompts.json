@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen edit",
+  "created": "2026-10-16",
+  "reference": "day-v1.png",
+  "assets": [
+    {
+      "file": "day-focused-v1.png",
+      "prompt": "Edit target: the attached existing Daymate character PNG. Create ONE transparent full-body variant for the 'focused / thinking' state. Preserve the same fictional adult young man Day, brown wavy hair, face identity, delicate warm anime watercolor illustration, lavender open shirt over white T shirt, grey blue trousers and sneakers, exact same standing body scale, centered placement and 2:3 portrait canvas as reference. Change ONLY expression and right arm gesture: calm attentive eyes, closed relaxed mouth with a very slight thoughtful smile, right hand gently touching chin in a thoughtful pose, other hand remains in pocket. Keep both shoes fully visible. No props, no text, no additional characters, no room, no opaque backdrop, no outer glow or cast shadow. Genuine transparent alpha outside the character. Preserve original soft linework and clothing palette. This is a production sprite variant, not a presentation."
+    },
+    {
+      "file": "day-speaking-v1.png",
+      "prompt": "Edit target: attached original Daymate character PNG. Create ONE transparent full-body 'speaking / encouraging' variant. Preserve the exact same fictional adult young man Day, brown wavy hair, face identity, warm watercolor anime linework, lavender open shirt over white T shirt, grey blue trousers, sneakers, centered character size and 2:3 portrait framing. Change expression to a friendly engaged smile with mouth slightly open as if speaking (subtle, natural, not wide laughing). Change the free right hand to a small open palm conversational gesture at chest level; other hand remains in pocket. Keep both shoes fully visible and head/feet at same canvas positions as reference for sprite swapping. No text, props, room, opaque background, outer glow or cast shadow. Genuine transparent alpha outside the character. Production sprite variant."
+    }
+  ]
+}

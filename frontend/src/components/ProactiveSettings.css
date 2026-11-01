@@ -1,0 +1,9 @@
+.proactive-settings { border-top: 1px solid #eaf3f2; margin-top: 24px; padding-top: 12px; }
+.proactive-form fieldset { border: 1px solid #eaf3f2; border-radius: 10px; margin: 16px 0; padding: 14px; min-width: 0; }
+.proactive-form legend { color: #59949c; padding: 0 6px; }
+.proactive-form select, .proactive-form input[type=time] { padding: 8px; border: 1px solid #eaf3f2; border-radius: 8px; background: white; font: inherit; }
+.proactive-choices { display: flex; flex-direction: column; max-height: 250px; overflow-y: auto; gap: 8px; }
+.proactive-choices label { overflow-wrap: anywhere; }
+.proactive-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.proactive-actions button { padding: 10px 14px; border-radius: 8px; background: #eaf3f2; color: #59949c; }
+.proactive-actions .primary-button { background: #175d66; color: white; }
